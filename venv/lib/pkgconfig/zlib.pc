@@ -1,0 +1,13 @@
+prefix=/Users/states/Desktop/BostonHousing/Linearpricehousing/venv
+exec_prefix=/Users/states/Desktop/BostonHousing/Linearpricehousing/venv
+libdir=/Users/states/Desktop/BostonHousing/Linearpricehousing/venv/lib
+sharedlibdir=/Users/states/Desktop/BostonHousing/Linearpricehousing/venv/lib
+includedir=/Users/states/Desktop/BostonHousing/Linearpricehousing/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
